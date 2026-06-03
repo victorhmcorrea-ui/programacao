@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-      <title>Pagina Victor, O guloso</title>
-</head>       
-      <body>
-      <div>
-      <h1>SENAI, O Guloso</h1>
-      <p>página simplesinha combinando HTML, CSS, JavaScript e o Guloso.</p>
+  <style>
+      body{
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;}
+      .card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+            text-align: center;
+            max-width: 350px;
+            width: 100%; 
+       
+      }
+      h1{
+            color: #333;
+            margin-bottom: 10px;
+      }
+      p{
+            color: #666;
+            font-size: 14px;
+      }
+      .contador   {
+            font-size: 14px;
+            font-weight: bold;
+            color: #007bff;
+            margin: 20px 0;
+   
+      }
+      button {
+          background: #007bff;
+          color: #fff;
+          border: none;
+          padding: 12px 24px;
+          border-radius: 6px;
+          cursor: pointer;
+      }
+      button:hover { 
+          background: #0056b3;
+      }     
+  </style>
+</head>
+
+<body>
+<div class="card">
+<h1>SENAI, O Guloso</h1>
+      <p>página simplesimha combinando HTML, CSS, JavaScript e Guloso</p>
        <div class="contador" id="numero-contador">0</div>
        <button id="botao-clique">clique aqui, no Guloso</button>
      </div> 
      </body> 
+
 
 
 </html>
