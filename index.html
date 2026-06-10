@@ -54,9 +54,14 @@
       <p>página simplesimha combinando HTML, CSS, JavaScript e Guloso</p>
        <div class="contador" id="numero-contador">0</div>
        <button id="botao-clique">clique aqui, no Guloso</button>
-     </div> 
-     </body> 
 
+</div> 
+<script>
+const btn = document.getElementById('botao-clique');
+const num = document.getElementById('numero-contador');
+let c = 0;
+btn.addEventListener('click', () => num.textContent = ++c);
+ </script>
 
-
+</body> 
 </html>
